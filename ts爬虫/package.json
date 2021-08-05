@@ -1,0 +1,21 @@
+{
+  "name": "bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node ./src/crowller.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/superagent": "^4.1.12",
+    "ts-node": "^10.1.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.10",
+    "superagent": "^6.1.0"
+  }
+}
